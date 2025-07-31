@@ -3,114 +3,342 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontham Sai Sri Harsha - Portfolio</title>
+    <meta name="description" content="Kontham Sai Sri Harsha - Full Stack Developer specializing in AI automation and cybersecurity. Portfolio showcasing projects in Python, Flutter, and security tools.">
+    <meta name="keywords" content="Full Stack Developer, AI Automation, Cybersecurity, Python, Flutter, Portfolio">
+    <meta name="author" content="Kontham Sai Sri Harsha">
+    <title>Kontham Sai Sri Harsha - Full Stack Developer & AI Automation Expert</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="hero">
-        <h1>Kontham Sai Sri Harsha</h1>
-        <h2>Full Stack Developer</h2>
-        <h3>AI Automation Enthusiast | Cybersecurity Learner</h3>
-        <p>Building secure, scalable, and intelligent web solutions using technologies like Flutter, Python, and AI automation tools such as n8n, FastBots, and Replit.</p>
-        <div class="buttons">
-            <a href="#" class="btn">📄 Download Resume</a>
-            <a href="#contact" class="btn">📬 Contact Me</a>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">KSH</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Kontham Sai Sri Harsha</span>
+                </h1>
+                <h2 class="hero-subtitle">Full Stack Developer</h2>
+                <h3 class="hero-description">AI Automation Enthusiast | Cybersecurity Learner</h3>
+                <p class="hero-paragraph">
+                    Building secure, scalable, and intelligent web solutions using technologies like Flutter, Python, and AI automation tools such as n8n, FastBots, and Replit.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary" aria-label="Download Resume">
+                        <span class="btn-icon">📄</span>
+                        Download Resume
+                    </a>
+                    <a href="#contact" class="btn btn-secondary" aria-label="Contact Me">
+                        <span class="btn-icon">📬</span>
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-placeholder">
+                    <div class="profile-circle"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
         </div>
     </header>
 
+    <!-- Tools Section -->
     <section class="tools">
-        <h4>Tools</h4>
-        <div class="tool-icons">
-            <span>💻 Tech Stack: Python, Java, HTML, CSS, SQL, Oracle</span>
-            <span>🛠️ AI Tools: n8n, FastBots, Replit</span>
-            <span>🔐 Security: Wireshark, SQLMap, Burp Suite, Nmap</span>
-            <span>🌐 Dev: Flutter, Linux, GitHub</span>
+        <div class="container">
+            <h4 class="tools-title">Tech Arsenal</h4>
+            <div class="tool-grid">
+                <div class="tool-category">
+                    <div class="tool-icon">💻</div>
+                    <h5>Tech Stack</h5>
+                    <p>Python, Java, HTML, CSS, SQL, Oracle</p>
+                </div>
+                <div class="tool-category">
+                    <div class="tool-icon">🛠️</div>
+                    <h5>AI Tools</h5>
+                    <p>n8n, FastBots, Replit</p>
+                </div>
+                <div class="tool-category">
+                    <div class="tool-icon">🔐</div>
+                    <h5>Security</h5>
+                    <p>Wireshark, SQLMap, Burp Suite, Nmap</p>
+                </div>
+                <div class="tool-category">
+                    <div class="tool-icon">🌐</div>
+                    <h5>Development</h5>
+                    <p>Flutter, Linux, GitHub</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a motivated developer with a strong foundation in AI and cybersecurity. Currently, I am exploring advanced AI automation techniques and enhancing my skills in secure coding practices.</p>
-        <h3>Technical Skills:</h3>
-        <ul>
-            <li>Programming Languages: Python, Java</li>
-            <li>Web Development: HTML, CSS</li>
-            <li>Database Management: SQL, Oracle</li>
-            <li>Cybersecurity Tools: Wireshark, SQLMap, Burp Suite, Nmap</li>
-        </ul>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>PDF to Google Sheets AI Bot</h3>
-            <p>Developed an AI-powered tool to extract key data from PDF claim documents and auto-populate Google Sheets.</p>
-            <a href="#" class="btn">View on GitHub</a>
-        </div>
-        <div class="project">
-            <h3>Flutter Web App (chatbot + gesture recognition)</h3>
-            <p>Created a responsive web application showcasing a chatbot and gesture recognition, enhancing user engagement by 20%.</p>
-            <a href="#" class="btn">View on GitHub</a>
-        </div>
-        <div class="project">
-            <h3>DVWA Penetration Testing</h3>
-            <p>Conducted penetration testing on DVWA, identifying and exploiting vulnerabilities to enhance security practices.</p>
-            <a href="#" class="btn">View on GitHub</a>
-        </div>
-    </section>
-
-    <section id="experience">
-        <h2>Experience</h2>
-        <h3>AI Automation Engineer @ FastBots</h3>
-        <ul>
-            <li>Designed and optimized AI workflows using the FastBots platform.</li>
-            <li>Developed a custom AI-powered automation tool for data extraction.</li>
-            <li>Achieved a 70% reduction in manual data entry workload.</li>
-        </ul>
-        <h3>Cybersecurity Intern</h3>
-        <ul>
-            <li>Conducted penetration testing using SQLMap and XSSer.</li>
-            <li>Analyzed network traffic with Wireshark during simulated attacks.</li>
-            <li>Focused on OWASP Top 10 vulnerabilities.</li>
-        </ul>
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills-list">
-            <span>Python</span>
-            <span>Java</span>
-            <span>SQL</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>Wireshark</span>
-            <span>Burp Suite</span>
-            <span>SQLMap</span>
-            <span>Nmap</span>
-            <span>Linux</span>
-            <span>Windows</span>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I am a motivated developer with a strong foundation in AI and cybersecurity. Currently, I am exploring advanced AI automation techniques and enhancing my skills in secure coding practices.
+                    </p>
+                    <h3>Technical Skills:</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Programming Languages</h4>
+                            <p>Python, Java</p>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Web Development</h4>
+                            <p>HTML, CSS, JavaScript</p>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Database Management</h4>
+                            <p>SQL, Oracle</p>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Cybersecurity Tools</h4>
+                            <p>Wireshark, SQLMap, Burp Suite, Nmap</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <p>Cybersecurity Essentials – Accemmegrade</p>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3>PDF to Google Sheets AI Bot</h3>
+                        <div class="project-tags">
+                            <span class="tag">AI</span>
+                            <span class="tag">Automation</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Developed an AI-powered tool to extract key data from PDF claim documents and auto-populate Google Sheets, streamlining data processing workflows.
+                    </p>
+                    <div class="project-footer">
+                        <a href="#" class="btn btn-outline" aria-label="View PDF AI Bot project on GitHub">
+                            View on GitHub
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3>Flutter Web App</h3>
+                        <div class="project-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">Web</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Created a responsive web application showcasing a chatbot and gesture recognition, enhancing user engagement by 20%.
+                    </p>
+                    <div class="project-footer">
+                        <a href="#" class="btn btn-outline" aria-label="View Flutter Web App project on GitHub">
+                            View on GitHub
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3>DVWA Penetration Testing</h3>
+                        <div class="project-tags">
+                            <span class="tag">Security</span>
+                            <span class="tag">Testing</span>
+                            <span class="tag">OWASP</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Conducted comprehensive penetration testing on DVWA, identifying and exploiting vulnerabilities to enhance security practices.
+                    </p>
+                    <div class="project-footer">
+                        <a href="#" class="btn btn-outline" aria-label="View DVWA Penetration Testing project on GitHub">
+                            View on GitHub
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <form id="contactForm">
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Message" required></textarea>
-            <button type="submit" class="btn">Send Message</button>
-        </form>
-        <p>Email: Konthamharsha61@gmail.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/kontham-sai-sri-harsha">Profile</a></p>
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>AI Automation Engineer</h3>
+                        <h4>FastBots</h4>
+                        <ul class="achievement-list">
+                            <li>Designed and optimized AI workflows using the FastBots platform</li>
+                            <li>Developed a custom AI-powered automation tool for data extraction</li>
+                            <li>Achieved a 70% reduction in manual data entry workload</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Cybersecurity Intern</h3>
+                        <ul class="achievement-list">
+                            <li>Conducted penetration testing using SQLMap and XSSer</li>
+                            <li>Analyzed network traffic with Wireshark during simulated attacks</li>
+                            <li>Focused on OWASP Top 10 vulnerabilities</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Kontham Sai Sri Harsha. All rights reserved.</p>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skill-item" data-skill="Python">
+                    <span class="skill-name">Python</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="Java">
+                    <span class="skill-name">Java</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="SQL">
+                    <span class="skill-name">SQL</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="HTML/CSS">
+                    <span class="skill-name">HTML/CSS</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="88"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="Cybersecurity">
+                    <span class="skill-name">Cybersecurity</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="AI/ML">
+                    <span class="skill-name">AI/ML</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="82"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certification-card">
+                <div class="cert-icon">🛡️</div>
+                <div class="cert-details">
+                    <h3>Cybersecurity Essentials</h3>
+                    <p>Accemmegrade</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span class="btn-icon">📤</span>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:Konthamharsha61@gmail.com">Konthamharsha61@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/kontham-sai-sri-harsha" target="_blank" rel="noopener noreferrer">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Kontham Sai Sri Harsha. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#" aria-label="GitHub">GitHub</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
